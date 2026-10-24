@@ -1,58 +1,90 @@
-# LAMINA — system MES/WMS do zarządzania produkcją
+# LAMINA — system dla zakładów cięcia laserowego i gięcia blach
 
-**Nowoczesny system do zarządzania produkcją w zakładach cięcia laserowego i gięcia CNC.**
-Wyceny i oferty, magazyn blach, zlecenia, etykiety, atesty, analityka BI — wszystko z poziomu
-przeglądarki, na komputerze, tablecie i telefonie.
+Wycena z rysunku, zlecenia, magazyn arkuszy, hala i kadry w jednym programie. Pracujesz w przeglądarce —
+na komputerze w biurze, na tablecie przy maszynie i na telefonie — a serwer i dane zostają w Twojej firmie.
 
----
+Więcej, razem z nagraniami ekranów programu: **[hawi.com.pl](https://hawi.com.pl)**
 
 ## Dla kogo
 
-Dla firm zajmujących się obróbką blach — cięciem laserowym i gięciem na krawędziarkach CNC —
-które chcą uporządkować wyceny, magazyn materiału, zlecenia i dokumentację jakościową
-w jednym miejscu.
+Dla firm obrabiających blachę — cięcie laserowe i gięcie na krawędziarkach CNC — które chcą mieć wyceny,
+materiał, zlecenia i dokumentację jakościową w jednym miejscu, bez wdrażania ciężkiego systemu ERP.
 
-## Kluczowe funkcje
+## Co potrafi
 
-- **Wyceny i oferty** — wgrywasz rysunki klienta, system sam mierzy geometrię detalu (wymiary
-  gabarytowe, długość cięcia, liczba przebić) i liczy wagę, czas pracy lasera oraz cenę według
-  Twojego cennika. Przyjmuje **DXF**, **wycinek PDF** i **zdjęcie szkicu z kartki**; linie
-  wymiarowe i osie odsiewa automatycznie. Na końcu generuje **ofertę PDF** z logo Twojej firmy,
-  danymi nabywcy z kartoteki i miniaturą każdego detalu.
-- **Magazyn blach** — pełna ewidencja arkuszy, regałów i stanowisk, rozkrój z automatycznym
-  liczeniem i zwrotem resztek, kontrola przeciążenia regałów.
-- **Zlecenia produkcyjne** — od przyjęcia materiału, przez cięcie i gięcie, po archiwum;
-  pełna historia i przypisanie operatorów, którzy pracowali przy zleceniu. Detal z gięciem
-  po zakończeniu cięcia trafia automatycznie na panel krawędziarki.
-- **Zapotrzebowanie (MRP)** — progi minimalne, wykrywanie braków materiałowych i gotowe
-  zamówienie zakupowe w PDF do hurtowni.
-- **Etykiety i paczki atestów** — druk etykiet oraz komplet dokumentacji jakościowej materiału.
-- **Analityka BI** — wartość zleceń, dynamika przychodu, analiza odpadów (w sztukach
-  i kilogramach), top kontrahenci, wyniki wg technologów, zamrożony kapitał na regałach.
-- **Kadry** — urlopy, nadgodziny, karty BHP, panel pracownika, raport absencji w PDF.
-- **Praca z przeglądarki** — serwer na jednym komputerze, dostęp z dowolnego urządzenia w sieci
-  lokalnej (komputer, tablet, telefon), także po szyfrowanym HTTPS.
-- **Integracja z ERP** (Comarch) oraz wbudowany asystent AI.
+**Wyceny i oferty**
+- Rysunki DXF i DWG wgrywasz przeciągnięciem, kilka naraz. Program sam mierzy każdy detal: wymiary, długość
+  cięcia, liczbę przebić i wagę.
+- Z rysunku wykonawczego bierze sam detal — ramkę arkusza, tabelkę i wymiarowanie pomija. Rysunek
+  w podziałce przelicza na wymiary rzeczywiste, a obrys narysowany dwa razy liczy raz.
+- Rysunek, z którego nie da się policzyć detalu, odrzuca i mówi, dlaczego.
+- Cenę materiału bierze z Twojego magazynu: medianę rzeczywistych zakupów dla danego gatunku i grubości.
+- Cenę gięcia ustawiasz przy pozycji.
+- Na końcu oferta PDF z logo Twojej firmy i miniaturą każdego detalu.
+
+**Zlecenia i produkcja**
+- Zlecenie z zatwierdzonej wyceny jednym przyciskiem, z numerem według własnego wzoru — z rokiem albo bez.
+- Karta zlecenia A4 z kodem QR — operator skanuje kod i od razu widzi zlecenie.
+- Panele operatorów lasera i krawędziarki na tablecie. Detal do gięcia po wycięciu trafia sam na krawędziarkę.
+- Pozycje faktury przy zleceniu (import i eksport XLSX), cofnięcie zlecenia z archiwum z kompletem danych.
+
+**Magazyn i zakupy**
+- Arkusze, kawałki i regały z nośnością półek, rezerwacje pod zlecenia, atesty i pochodzenie materiału.
+- Zapotrzebowanie ze stanów minimalnych i numerowane zamówienia do dostawców w PDF.
+
+**Firma**
+- Archiwum, paczka atestów i faktury w systemie Comarch ze zrealizowanych zleceń.
+- Analityka BI: przychód, kontrahenci, wyniki technologów, wydajność hali, kapitał zamrożony na regałach.
+- Kadry: urlopy, nadgodziny, terminy BHP, panel pracownika.
+- Czat firmowy i pomoc „?” na każdym ekranie.
+- Asystent AI i odczyt zapytania klienta z wklejonego tekstu — opcjonalne, domyślnie wyłączone;
+  włącza je administrator.
+
+**Moduł LAMInest (opcjonalny)**
+- Rozkrój blach z rysunków DXF i DWG, program LCC dla wycinarki i karta produkcyjna z czasem cięcia
+  z tej samej tabeli co wyceny. Odblokowuje go klucz licencyjny, bez ponownej instalacji.
+
+**Fundament**
+- Serwer na jednym komputerze w firmie, dostęp z każdego urządzenia w sieci lokalnej, także szyfrowanym
+  połączeniem (HTTPS).
+- Role i uprawnienia, jedno aktywne logowanie na konto.
+- Licencja liczy stanowiska, a nie komputery.
+- Trzy motywy wyglądu, tryb dzienny i nocny, trzy gęstości widoku.
 
 ## Wymagania
 
-- Windows 10 / 11 (64-bit)
-- Baza danych PostgreSQL — **instalator pobiera i konfiguruje ją automatycznie**, nie trzeba nic
-  instalować ręcznie.
+- Windows 10 lub 11, 64-bit — na komputerze, który będzie serwerem.
+- PostgreSQL — jeśli go nie ma, instalator sam go pobierze i zainstaluje.
+- Na stanowiskach pracowników wystarczy przeglądarka.
 
-## Pobranie i instalacja
+## Wersja próbna — miesiąc za darmo
 
-1. Pobierz najnowszy instalator z zakładki **[Releases](../../releases)** — plik `Setup_Lamina_v1.exe`.
-2. Uruchom instalator (wymaga uprawnień administratora) i postępuj według kreatora.
-3. Szczegółowa instrukcja wdrożenia (konfiguracja serwera, drukarki etykiet, dostęp z innych
-   urządzeń) jest dołączona do wydania jako `LAMINA_Instrukcja_Wdrozenia.pdf`.
+Pełna wersja przez 30 dni, bez opłat i bez zobowiązań — na Twoich rysunkach, Twoim magazynie i prawdziwych
+zleceniach.
 
-> Przy pierwszym uruchomieniu program tworzy plik `license_key.dat` z ID Twojej maszyny.
-> Prześlij to ID dostawcy, aby otrzymać klucz aktywacyjny.
+1. Pobierz instalator z zakładki **[Releases](../../releases/latest)** (`Setup_Lamina_v1.exe`) i zainstaluj
+   program. Ekran klucza pokaże ID komputera.
+2. Wyślij ID na **biuro@hawi.com.pl** — klucz próbny dostaniesz tego samego dnia.
+3. Wklej klucz na tym samym ekranie i pracuj.
 
-## Wersja demo
+Wersja próbna co najmniej raz na 3 dni łączy się z internetem, żeby sprawdzić datę. Wysyła tylko skrót
+klucza i liczbę losową. Pełna licencja internetu nie potrzebuje.
 
-Dostępna jest w pełni funkcjonalna wersja **demo** (ograniczona czasowo) — idealna, aby
-przetestować system na własnych danych przed zakupem. O klucz demo poproś dostawcę.
+## Instalacja i aktualizacja
+
+- Instalator uruchamiasz na komputerze, który będzie serwerem (wymaga uprawnień administratora).
+  Przy pierwszym uruchomieniu program sam otwiera w przeglądarce ekran klucza, a gdy nie może połączyć się
+  z bazą — ekran połączenia z bazą.
+- Aktualizacja: zrób kopię bazy danych i uruchom nowy instalator na tym samym serwerze. Dane, ustawienia,
+  plik klucza i połączenie z bazą zostają.
+- Sumę kontrolną SHA-256 każdego instalatora podajemy w opisie wydania.
 
 ## Licencja
+
+Oprogramowanie komercyjne, wszelkie prawa zastrzeżone. Korzystanie wymaga ważnego klucza licencyjnego.
+Warunki licencji wyświetla instalator.
+
+## Kontakt
+
+Łukasz Garbacz · HaWi Software
+tel. 500 119 551 · biuro@hawi.com.pl · [hawi.com.pl](https://hawi.com.pl)
