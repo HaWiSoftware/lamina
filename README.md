@@ -62,21 +62,24 @@ materiał, zlecenia i dokumentację jakościową w jednym miejscu, bez wdrażani
 Pełna wersja przez 30 dni, bez opłat i bez zobowiązań — na Twoich rysunkach, Twoim magazynie i prawdziwych
 zleceniach.
 
-1. Pobierz instalator z zakładki **[Releases](../../releases/latest)** (`Setup_Lamina_v1.exe`) i zainstaluj
-   program. Ekran klucza pokaże ID komputera.
+1. Pobierz instalator z zakładki **[Releases](../../releases/latest)** (`Setup_Lamina_1.0.….exe` — w nazwie
+   jest numer wydania) i zainstaluj program. Ekran klucza pokaże ID komputera.
 2. Wyślij ID na **biuro@hawi.com.pl** — klucz próbny dostaniesz tego samego dnia.
 3. Wklej klucz na tym samym ekranie i pracuj.
 
-Wersja próbna co najmniej raz na 3 dni łączy się z internetem, żeby sprawdzić datę. Wysyła tylko skrót
-klucza i liczbę losową. Pełna licencja internetu nie potrzebuje.
+Wersja próbna co najmniej raz na 3 dni łączy się z internetem, żeby sprawdzić datę. Kupiona licencja
+sprawdza się na tym samym serwerze licencji, ale bez internetu działa do 30 dni. Program wysyła tylko skrót
+klucza i liczbę losową — żadnych danych firmy.
 
 ## Instalacja i aktualizacja
 
 - Instalator uruchamiasz na komputerze, który będzie serwerem (wymaga uprawnień administratora).
   Przy pierwszym uruchomieniu program sam otwiera w przeglądarce ekran klucza, a gdy nie może połączyć się
   z bazą — ekran połączenia z bazą.
-- Aktualizacja: zrób kopię bazy danych i uruchom nowy instalator na tym samym serwerze. Dane, ustawienia,
-  plik klucza i połączenie z bazą zostają.
+- Aktualizacja: program sam sprawdza raz na dobę listę wydań i pokazuje nową wersję Administratorowi;
+  **Ustawienia → Aktualizacje → Zainstaluj** pobiera instalator, sprawdza jego podpis i sumę, robi kopię bazy
+  i instaluje po cichu. Ręcznie: zrób kopię bazy danych i uruchom nowy instalator na tym samym serwerze. Dane,
+  ustawienia, plik klucza i połączenie z bazą zostają.
 - Sumę kontrolną SHA-256 każdego instalatora podajemy w opisie wydania.
 
 ## Licencja
