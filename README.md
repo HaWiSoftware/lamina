@@ -63,13 +63,15 @@ Pełna wersja przez 30 dni, bez opłat i bez zobowiązań — na Twoich rysunkac
 zleceniach.
 
 1. Pobierz instalator z zakładki **[Releases](../../releases/latest)** (`Setup_Lamina_1.0.….exe` — w nazwie
-   jest numer wydania) i zainstaluj program. Ekran klucza pokaże ID komputera.
-2. Wyślij ID na **biuro@hawi.com.pl** — klucz próbny dostaniesz tego samego dnia.
-3. Wklej klucz na tym samym ekranie i pracuj.
+   jest numer wydania) i zainstaluj program.
+2. Na ekranie klucza wpisz nazwę firmy i telefon albo e-mail i kliknij **Wyślij prośbę o klucz**
+   (albo wyślij ID komputera z tego ekranu na **biuro@hawi.com.pl**).
+3. Klucz próbny wejdzie sam tego samego dnia — bez kopiowania i maili.
 
 Wersja próbna co najmniej raz na 3 dni łączy się z internetem, żeby sprawdzić datę. Kupiona licencja
-sprawdza się na tym samym serwerze licencji, ale bez internetu działa do 30 dni. Program wysyła tylko skrót
-klucza i liczbę losową — żadnych danych firmy.
+sprawdza się na tym samym serwerze licencji, ale bez internetu działa do 30 dni. Przy sprawdzaniu licencji
+program wysyła tylko skrót klucza i liczbę losową — żadnych danych firmy; dane z prośby o klucz idą tylko
+po kliknięciu „Wyślij prośbę o klucz”.
 
 ## Instalacja i aktualizacja
 
