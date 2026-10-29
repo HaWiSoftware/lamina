@@ -84,6 +84,15 @@ po kliknięciu „Wyślij prośbę o klucz”.
   ustawienia, plik klucza i połączenie z bazą zostają.
 - Sumę kontrolną SHA-256 każdego instalatora podajemy w opisie wydania.
 
+## Dokumentacja
+
+Instrukcje dołączamy do każdego wydania — poniższe odnośniki prowadzą zawsze do wersji dla najnowszego programu:
+
+- **[Instrukcja wdrożenia (PDF)](https://github.com/HaWiSoftware/lamina/releases/latest/download/LAMINA_Instrukcja_Wdrozenia.pdf)**
+  — dla administratora: instalacja serwera, licencja, stanowiska, ustawienia, rozwiązywanie problemów.
+- **[Instrukcja użytkownika (PDF)](https://github.com/HaWiSoftware/lamina/releases/latest/download/LAMINA_Instrukcja_Uzytkownika.pdf)**
+  — dla operatorów i technologów: praca na stanowiskach krok po kroku.
+
 ## Licencja
 
 Oprogramowanie komercyjne, wszelkie prawa zastrzeżone. Korzystanie wymaga ważnego klucza licencyjnego.
