@@ -13,9 +13,8 @@ materiał, zlecenia i dokumentację jakościową w jednym miejscu, bez wdrażani
 ## Co potrafi
 
 **Wyceny i oferty**
-- Rysunki DXF i DWG wgrywasz przeciągnięciem, kilka naraz (DWG wymaga programu innej firmy, na warunkach jego
-  licencji). Program sam mierzy każdy detal: wymiary, długość
-  cięcia, liczbę przebić i wagę.
+- Rysunki DXF i DWG wgrywasz przeciągnięciem, kilka naraz (do DWG potrzebny jest darmowy program LibreDWG
+  na serwerze). Program sam mierzy każdy detal: wymiary, długość cięcia, liczbę przebić i wagę.
 - Z rysunku wykonawczego bierze sam detal — ramkę arkusza, tabelkę i wymiarowanie pomija. Rysunek
   w podziałce przelicza na wymiary rzeczywiste, a obrys narysowany dwa razy liczy raz.
 - Rysunek, z którego nie da się policzyć detalu, odrzuca i mówi, dlaczego.
