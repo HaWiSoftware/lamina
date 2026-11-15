@@ -66,10 +66,10 @@ zleceniach.
    jest numer wydania) i zainstaluj program.
 2. Na ekranie klucza wpisz nazwę firmy i telefon albo e-mail i kliknij **Wyślij prośbę o klucz**
    (albo wyślij ID komputera z tego ekranu na **biuro@hawi.com.pl**).
-3. Klucz próbny wejdzie sam tego samego dnia — bez kopiowania i maili.
+3. Klucz próbny trafia do programu sam, zwykle w ciągu kilku godzin w dni robocze — bez kopiowania i maili.
 
 Wersja próbna co najmniej raz na 3 dni łączy się z internetem, żeby sprawdzić datę. Kupiona licencja
-sprawdza się na tym samym serwerze licencji, ale bez internetu działa do 30 dni. Przy sprawdzaniu licencji
+sprawdza się na tym samym serwerze licencji, ale bez internetu działa do 7 dni. Przy sprawdzaniu licencji
 program wysyła tylko skrót klucza i liczbę losową — żadnych danych firmy; dane z prośby o klucz idą tylko
 po kliknięciu „Wyślij prośbę o klucz”.
 
